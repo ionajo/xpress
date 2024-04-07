@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>XPRESS Spring 2023</title>
+    <title>XPRESS Spring 2024</title>
     <meta
      _name="viewport" 
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -46,7 +46,7 @@
 
       header {
         width: 100%;
-        height: 200px;
+        /* height: 200px; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -233,11 +233,11 @@
   <body>
     <div class="background"></div>
     <header>
-      <p>XPRESS</p>
+      <img src="images/title.jpg" alt="Minecraft header" />
     </header>
     <div class="container">
       <div class="welcome">
-        Welcome to the Spring 2023 Season. All games will be played at Masterson
+        Welcome to the Spring 2024 Season. All games will be played at Masterson
         Station Park in the 5U/6U/8U pitches (<a href="images/pitches.jpg"
           >map</a
         >). Below is the game and snack schedule. Please ensure snacks are soy
@@ -250,54 +250,55 @@
           <div class="cell">V</div>
           <div class="cell">SNACK</div>
         </div>
-        
+
         <div class="row finished">
-          <div class="cell">Game 2, D</div>
-          <div class="cell">Sat, Apr 8, 3 pm</div>
-          <div class="cell">The Force</div>
+          <div class="cell">Game 1, C</div>
+          <div class="cell">Sat, Mar 23, 5 pm</div>
+          <div class="cell">Jackrabbits</div>
+          <div class="cell"></div>
+        </div>
+        
+        <div class="row">
+          <div class="cell">Game 2, E</div>
+          <div class="cell">Sat, Apr 20, 9 am</div>
+          <div class="cell">Irish</div>
           <div class="cell">Iona</div>
         </div>
-        <div class="row finished">
-          <div class="cell">Game 3, E</div>
-          <div class="cell">Sat, Apr 15, 5 pm</div>
-          <div class="cell">Silver Bullets</div>
-          <div class="cell">Ford</div>
+        <div class="row">
+          <div class="cell">Game 3, C</div>
+          <div class="cell">Sun, Apr 21, 5 pm</div>
+          <div class="cell">Cowboys</div>
+          <div class="cell">Chet</div>
         </div>
-        <div class="row finished">
-          <div class="cell">Game 4, H</div>
-          <div class="cell">Sun, Apr 23, 3 pm</div>
-          <div class="cell">Ravens</div>
+        <div class="row">
+          <div class="cell">Game 4, C</div>
+          <div class="cell">Sat, Apr 27, 11 am</div>
+          <div class="cell">Raptors</div>
           <div class="cell">Ian</div>
         </div>
-        <div class="row finished">
-          <div class="cell">Game 5, C</div>
-          <div class="cell">Sat, Apr 29, 11 am</div>
-          <div class="cell">Lions</div>
-          <div class="cell">Margaret</div>
+        <div class="row">
+          <div class="cell">Game 5, F</div>
+          <div class="cell">Sun, Apr 28, 3pm</div>
+          <div class="cell">Tigers</div>
+          <div class="cell">Aiden</div>
         </div>
-        <div class="row finished">
-          <div class="cell">Game 6, C</div>
-          <div class="cell">Sat, May 6, 3 pm</div>
-          <div class="cell">Jackrabbits</div>
+        <div class="row">
+          <div class="cell">Game 6, D</div>
+          <div class="cell">Sat, May 4, 9 am</div>
+          <div class="cell">Stompers</div>
           <div class="cell">Ryan</div>
         </div>
         <div class="row">
-          <div class="cell">Game 7, E</div>
-          <div class="cell">Sat, May 13, 1 pm</div>
-          <div class="cell">Stompers</div>
+          <div class="cell">Game 7, F</div>
+          <div class="cell">Sun, May 5, 11 am</div>
+          <div class="cell">Eagles</div>
           <div class="cell">Sam</div>
         </div>
         <div class="row">
-          <div class="cell">Game 8, E</div>
-          <div class="cell">Sun, May 14, 1 pm</div>
-          <div class="cell">Mustangs</div>
+          <div class="cell">Game 8, C</div>
+          <div class="cell">Sat, May 11, 1 pm</div>
+          <div class="cell">Jackrabbits</div>
           <div class="cell">Shack</div>
-        </div>
-        <div class="row">
-          <div class="cell">🛎️ Game 1 rescheduled, H</div>
-          <div class="cell">Sun, May 28, 1 pm</div>
-          <div class="cell">United</div>
-          <div class="cell">Aiden</div>
         </div>
       </div>
       <div>
@@ -314,12 +315,6 @@
         <img src="images/5.png" alt="Player 2" />
         <div class="player-content">
           <p>Chet</p>
-        </div>
-      </div>
-      <div class="player" id="p3">
-        <img src="images/7.png" alt="Player 3" />
-        <div class="player-content">
-          <p>Ford</p>
         </div>
       </div>
       <div class="player" id="p4">
@@ -340,6 +335,12 @@
           <p>Margaret</p>
         </div>
       </div>
+      <div class="player" id="p3">
+        <img src="images/7.png" alt="Player 3" />
+        <div class="player-content">
+          <p>Miguel</p>
+        </div>
+      </div>
       <div class="player" id="p7">
         <img src="images/13.png" alt="Player 7" />
         <div class="player-content">
@@ -356,12 +357,6 @@
         <img src="images/8.png" alt="Player 9" />
         <div class="player-content">
           <p>Shack</p>
-        </div>
-      </div>
-      <div class="player" id="p10">
-        <img src="images/2.png" alt="Player 10" />
-        <div class="player-content">
-          <p>Silas</p>
         </div>
       </div>
       <!-- <p>Images and code assisted by Stable Diffusion and ChatGPT.</p> -->
